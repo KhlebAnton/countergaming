@@ -2308,11 +2308,11 @@ td.mode {
     text-wrap: nowrap;
     font-weight: 400;
     font-size: 16px;
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: #FFFFFF0A; 
     border: 1px solid #FFFFFF1A;
-    -webkit-backdrop-filter: blur(3px);
-            backdrop-filter: blur(3px);
+    /* -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px); */
     padding: 13px 16px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px 0px #00000040;
@@ -2731,7 +2731,7 @@ td.mode {
     }
 
     .player-icon_img {
-        min-width: 50%;
+        min-width: 80px;
     }
 
     .player-icon_title {
