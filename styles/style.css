@@ -2308,20 +2308,20 @@ td.mode {
     text-wrap: nowrap;
     font-weight: 400;
     font-size: 16px;
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: #FFFFFF0A;
     border: 1px solid #FFFFFF1A;
-    /* -webkit-backdrop-filter: blur(3px); */
+    -webkit-backdrop-filter: blur(3px);
             backdrop-filter: blur(3px);
     padding: 13px 16px;
     border-radius: 10px;
-    /* box-shadow: 0px 4px 10px 0px #00000040; */
-    /* -webkit-transition: .3s; */
+    box-shadow: 0px 4px 10px 0px #00000040;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
 .faq__menu-item:hover {
-    background-color: #DF14310A;
+    /* background-color: #DF14310A; */
 }
 
 .faq__menu-item_open {
