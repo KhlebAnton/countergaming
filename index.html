@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CounterGaming.pro</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#">
+                <div class="header__logo">
+                    <div class="header__logo-img"></div>
+                    <div class="header__logo-title">COUNTER<span class="header__logo-title_red">GAMING.PRO</span></div>
+                </div>
+
+            </a>
+
+            <div class="header__info">
+                <a href="#">
+                    <div class="user">
+                        <div class="user__img-wrapper">
+                            <img class="user__img" src="./test.png" alt="">
+                        </div>
+                        <div class="user__info">
+                            <div class="user__info-name">Username</div>
+                            <div class="user__info-balance">1900</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="btn btn_primary">
+                    ПОПОЛНИТЬ
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11 11H7V13H11V17H13V13H17V11H13V7H11V11Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <div class="hero__main">
+                    <div class="hero__main-desc">
+                        <h1 class="hero__main-title">ОНЛАЙН-ПЛАТФОРМА <br>
+                            ДЛЯ ПРОВЕДЕНИЯ ИГРОВЫХ МАТЧЕЙ</h1>
+                        <a href="#" class="btn btn-steam">
+                            ВОЙТИ С ПОМОЩЬЮ
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.5236 2.72943C9.52248 2.72943 3.78137 8.12943 3.23804 14.9928L10.3847 17.9461C10.9903 17.5338 11.7214 17.2905 12.5091 17.2905C12.5791 17.2905 12.648 17.295 12.718 17.2972L15.8969 12.695V12.6294C15.8969 9.8572 18.1503 7.60276 20.9236 7.60276C23.6947 7.60276 25.9503 9.85943 25.9503 12.6328C25.9503 15.4061 23.6947 17.6605 20.9236 17.6605H20.8069L16.278 20.895C16.278 20.9528 16.2824 21.0117 16.2824 21.0717C16.2824 23.155 14.5991 24.845 12.5158 24.845C10.6991 24.845 9.1647 23.5417 8.8147 21.815L3.69804 19.6961C5.28248 25.2928 10.4203 29.3961 16.5236 29.3961C23.8869 29.3961 29.8557 23.4261 29.8557 16.0628C29.8557 8.69943 23.8857 2.72943 16.5236 2.72943ZM9.9547 22.285C10.2458 22.8884 10.748 23.395 11.4147 23.6738C12.8558 24.2728 14.518 23.5894 15.1169 22.1461C15.4091 21.4461 15.4103 20.6805 15.1224 19.9805C14.8347 19.2805 14.2891 18.735 13.5925 18.4438C12.8991 18.155 12.1591 18.1672 11.5058 18.4105L13.198 19.1105C14.2603 19.555 14.7636 20.7772 14.3191 21.8384C13.878 22.9017 12.6558 23.405 11.5925 22.9628L9.9547 22.285ZM24.2747 12.6261C24.2747 10.7794 22.7713 9.2761 20.9247 9.2761C19.0747 9.2761 17.5747 10.7794 17.5747 12.6261C17.5747 14.4761 19.0747 15.9761 20.9247 15.9761C22.7724 15.9761 24.2747 14.4761 24.2747 12.6261ZM20.9324 10.1028C22.3203 10.1028 23.4503 11.2294 23.4503 12.6205C23.4503 14.0105 22.3203 15.1372 20.9324 15.1372C19.5403 15.1372 18.4157 14.0105 18.4157 12.6205C18.4157 11.2294 19.5413 10.1028 20.9324 10.1028Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="hero__main-person"></div>
+                </div>
+                <div class="hero__info">
+                    <div class="hero__info-cup-img"></div>
+                    <h2 class="hero__info-title">ТУРНИР</h2>
+                    <div class="hero__info-status-wrapper">
+
+                        <div class="hero__info-status">
+                            <div class="status__season">
+                                <div class="status__season-img gold_medal"></div>
+                                <div class="status__season-desc">
+                                    <div class="status__season-title_top">
+                                        СЕЗОН 12
+                                    </div>
+                                    <div class="status__season-title">
+                                        ЗОЛОТАЯ ЛИГА
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="status__place">
+                                <div class="status__place-count">32</div>
+                                <div class="status__place-desc">
+                                    <div class="status__place-top">место</div>
+                                    <div class="status__place-bottom">из 963</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-table" href="#">
+                            ТАБЛИЦА ЛИДЕРОВ
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.1716 11.4999L10.8076 6.13589L12.2218 4.72168L20 12.4999L12.2218 20.278L10.8076 18.8638L16.1716 13.4999H4V11.4999H16.1716Z"
+                                    fill="white" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="match">
+            <div class="match__header">
+                <div class="container">
+                    <div class="match__filters">
+                        <div class="match__filters-item-wrapper map-img">
+                            <select class="match__filters-item" name="maps">
+                                <option selected value="m1">Все карты</option>
+                                <option value="m2">Карта 1</option>
+                                <option value="m3">Карта 2</option>
+                                <option value="m4">Карта 3</option>
+                            </select>
+                        </div>
+                        <div class="match__filters-item-wrapper coin-img">
+                            <select class="match__filters-item" name="coin">
+                                <option selected value="c1">Любая сумма баллов</option>
+                                <option value="c2">сумма 1</option>
+                                <option value="c3">Сумма 2</option>
+                                <option value="c4">Сумма 3</option>
+                            </select>
+                        </div>
+                        <div class="match__filters-item-wrapper sword-img">
+                            <select class="match__filters-item" name="sword">
+                                <option selected value="s1">Все режимы</option>
+                                <option value="s2">Режим 1</option>
+                                <option value="s3">Режим 2</option>
+                                <option value="s4">Режим 3</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <a class="btn btn-create-match" onclick="showPopup()">
+                        СОЗДАТЬ МАТЧ
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 11V7H13V11H17V13H13V17H11V13H7V11H11ZM12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="match__wait">
+                    <div class="match__wait__header">
+                        <div class="match__wait-title">
+                            Ожидают
+                        </div>
+                        <a href="#" class="btn btn_fast-game">
+                            БЫСТРАЯ ИГРА
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.9979 1.58018C11.6178 1.22132 12.3822 1.22132 13.0021 1.58018L20.5021 5.92229C21.1197 6.27987 21.5 6.93946 21.5 7.65314V16.3469C21.5 17.0606 21.1197 17.7202 20.5021 18.0778L13.0021 22.4199C12.3822 22.7788 11.6178 22.7788 10.9979 22.4199L3.49793 18.0778C2.88029 17.7202 2.5 17.0606 2.5 16.3469V7.65314C2.5 6.93947 2.88029 6.27987 3.49793 5.92229L10.9979 1.58018ZM4.5 7.65314V7.65792L11.0021 11.4223C11.6197 11.7799 12 12.4395 12 13.1531V20.689L19.5 16.3469V7.65314L12 3.31104L4.5 7.65314ZM6.13208 12.3C6.13206 11.7477 5.74432 11.0761 5.26604 10.7999C4.78776 10.5238 4.40004 10.7476 4.40006 11.2999C4.40008 11.8522 4.78782 12.5238 5.2661 12.7999C5.74439 13.0761 6.1321 12.8523 6.13208 12.3ZM8.72899 18.7982C9.20728 19.0743 9.59499 18.8505 9.59497 18.2982C9.59495 17.7459 9.20721 17.0743 8.72893 16.7982C8.25065 16.522 7.86293 16.7459 7.86295 17.2982C7.86297 17.8504 8.25071 18.522 8.72899 18.7982ZM5.2661 16.799C5.74439 17.0751 6.1321 16.8513 6.13208 16.299C6.13206 15.7467 5.74432 15.0751 5.26604 14.799C4.78776 14.5228 4.40004 14.7467 4.40006 15.2989C4.40008 15.8512 4.78782 16.5228 5.2661 16.799ZM8.72851 14.7995C9.20679 15.0756 9.5945 14.8518 9.59448 14.2995C9.59446 13.7472 9.20673 13.0756 8.72844 12.7995C8.25016 12.5233 7.86245 12.7471 7.86246 13.2994C7.86248 13.8517 8.25022 14.5233 8.72851 14.7995ZM14.8979 8.00001C15.3762 7.72388 15.3762 7.27619 14.8979 7.00006C14.4196 6.72394 13.6441 6.72394 13.1658 7.00006C12.6875 7.27619 12.6875 7.72388 13.1658 8.00001C13.6441 8.27614 14.4196 8.27614 14.8979 8.00001ZM10.0981 7.00006C10.5764 7.27619 10.5764 7.72388 10.0981 8.00001C9.61982 8.27614 8.84434 8.27614 8.36604 8.00001C7.88774 7.72388 7.88774 7.27619 8.36604 7.00006C8.84434 6.72394 9.61982 6.72394 10.0981 7.00006ZM15.9954 15.3495C16.5932 15.0043 17.0779 14.1649 17.0779 13.4745C17.0779 12.7842 16.5933 12.5044 15.9955 12.8496C15.3977 13.1948 14.9131 14.0342 14.913 14.7246C14.913 15.4149 15.3976 15.6947 15.9954 15.3495Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="match__wait-cards">
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map_carton.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+                                        <img class="card-game__user-img" src="./test.png" alt="">
+                                    </div>
+                                    <div class="card-game__user-name">Elf lfik ElfikElfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map Carton</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map_carton.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map Carton</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map_carton.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map Carton</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/awp_lego_2.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">AWP Lego 2</div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-more">ЗАГРУЗИТЬ ЕЩЁ</a>
+                </div>
+                <div class="match__play">
+                    <div class="match__play__header">
+                        <div class="match__play-title">
+                            Играют сейчас
+                        </div>
+                    </div>
+                    <div class="match__play-cards">
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map_carton.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map Carton</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/awp_lego_2.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">AWP Lego 2</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map_carton.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map Carton</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/awp_lego_2.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">AWP Lego 2</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map</div>
+                        </div>
+                        <div class="card-game">
+                            <img class="card-game__bg" src="./images/map/aim_map.jpeg">
+                            <div class="card-game__coin">1000</div>
+                            <div class="card-game__user-container">
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">Elfik</div>
+                                </div>
+                                <div class="card-game__user">
+                                    <div class="card-game__user-img-wrapper">
+
+                                    </div>
+                                    <div class="card-game__user-name">docrxd</div>
+                                </div>
+                            </div>
+                            <div class="card-game__map-name">Aim Map</div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-more">ЗАГРУЗИТЬ ЕЩЁ</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <div class="footer__logo-img"></div>
+                <div class="footer__logo-info">
+                    <div class="footer__logo-info_title">COUNTERGAMING.PRO © 2024 </div>
+                    <div class="footer__logo-info_desc">ОНЛАЙН-ПЛАТФОРМА ДЛЯ ПРОВЕДЕНИЯ ИГРОВЫХ МАТЧЕЙ</div>
+                </div>
+            </div>
+            <div class="footer__support">
+                <div class="footer__support-title">ПОДДЕРЖКА</div>
+                <div class="footer__support-btn">
+                    <a class="btn btn-discord" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.3034 5.33716C17.9344 4.71103 16.4805 4.2547 14.9629 4C14.7719 4.32899 14.5596 4.77471 14.411 5.12492C12.7969 4.89144 11.1944 4.89144 9.60255 5.12492C9.45397 4.77471 9.2311 4.32899 9.05068 4C7.52251 4.2547 6.06861 4.71103 4.70915 5.33716C1.96053 9.39111 1.21766 13.3495 1.5891 17.2549C3.41443 18.5815 5.17612 19.388 6.90701 19.9187C7.33151 19.3456 7.71356 18.73 8.04255 18.0827C7.41641 17.8492 6.82211 17.5627 6.24904 17.2231C6.39762 17.117 6.5462 17.0003 6.68416 16.8835C10.1438 18.4648 13.8911 18.4648 17.3082 16.8835C17.4568 17.0003 17.5948 17.117 17.7434 17.2231C17.1703 17.5627 16.576 17.8492 15.9499 18.0827C16.2789 18.73 16.6609 19.3456 17.0854 19.9187C18.8152 19.388 20.5875 18.5815 22.4033 17.2549C22.8596 12.7341 21.6806 8.80747 19.3034 5.33716ZM8.5201 14.8459C7.48007 14.8459 6.63107 13.9014 6.63107 12.7447C6.63107 11.5879 7.45884 10.6434 8.5201 10.6434C9.57071 10.6434 10.4303 11.5879 10.4091 12.7447C10.4091 13.9014 9.57071 14.8459 8.5201 14.8459ZM15.4936 14.8459C14.4535 14.8459 13.6034 13.9014 13.6034 12.7447C13.6034 11.5879 14.4323 10.6434 15.4936 10.6434C16.5442 10.6434 17.4038 11.5879 17.3825 12.7447C17.3825 13.9014 16.5548 14.8459 15.4936 14.8459Z"
+                                fill="white" />
+                        </svg>
+                        DISCORD
+                    </a>
+                    <a class="btn btn-telegram" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM12.3584 9.38246C11.3857 9.78702 9.4418 10.6244 6.5266 11.8945C6.05321 12.0827 5.80524 12.2669 5.78266 12.4469C5.74451 12.7513 6.12561 12.8711 6.64458 13.0343C6.71517 13.0565 6.78832 13.0795 6.8633 13.1039C7.37388 13.2698 8.06071 13.464 8.41776 13.4717C8.74164 13.4787 9.10313 13.3452 9.50222 13.0711C12.226 11.2325 13.632 10.3032 13.7203 10.2832C13.7826 10.269 13.8689 10.2513 13.9273 10.3032C13.9858 10.3552 13.98 10.4536 13.9739 10.48C13.9361 10.641 12.4401 12.0318 11.666 12.7515C11.4351 12.9661 11.2101 13.1853 10.9833 13.4039C10.509 13.8611 10.1533 14.204 11.003 14.764C11.8644 15.3317 12.7323 15.8982 13.5724 16.4971C13.9867 16.7925 14.359 17.0579 14.8188 17.0156C15.0861 16.991 15.3621 16.7397 15.5022 15.9903C15.8335 14.2193 16.4847 10.3821 16.6352 8.80083C16.6484 8.6623 16.6318 8.485 16.6185 8.40717C16.6052 8.32934 16.5773 8.21844 16.4762 8.13635C16.3563 8.03913 16.1714 8.01863 16.0887 8.02009C15.7125 8.02672 15.1355 8.22737 12.3584 9.38246Z"
+                                fill="white" />
+                        </svg>
+                        TELEGRAM
+                    </a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">Честная игра</a>
+                <a href="#">Responsible Gaming Policy</a>
+                <a href="#">AML Policy</a>
+            </div>
+        </div>
+    </footer>
+    <div class="popup-create-match">
+        <div class="create-match-options">
+            <div class="match-options">
+                <div class="option-item">
+                    <span>ВЫБЕРИТЕ КАРТУ</span>
+                    <input class="option__check" id="AIM Map" checked type="radio" name="map-create">
+                    <label for="AIM Map" class="option__map" class="radio-wrapper">
+                        <div class="option__map-img-wrapper">
+                            <img class="option__map-img" src="./images/map/aim_map.jpeg" alt="">
+                        </div>
+                        <div class="option__map-title">AIM Map</div>
+                    </label>
+                    <input class="option__check" id="AIM Map Cartoon" type="radio" name="map-create">
+                    <label for="AIM Map Cartoon" class="option__map" class="radio-wrapper">
+                        <div class="option__map-img-wrapper">
+                            <img class="option__map-img" src="./images/map/aim_map_carton.jpeg" alt="">
+                        </div>
+                        <div class="option__map-title">AIM Map Cartoon</div>
+                    </label>
+                    <input class="option__check" id="AWP Lego 2" type="radio" name="map-create">
+                    <label for="AWP Lego 2" class="option__map" class="radio-wrapper">
+                        <div class="option__map-img-wrapper">
+                            <img class="option__map-img" src="./images/map/awp_lego_2.jpeg" alt="">
+                        </div>
+                        <div class="option__map-title">AWP Lego 2</div>
+                    </label>
+                </div>
+                <div class="option-item">
+                    <span>Выберите сумму баллов</span>
+                    <input id="100" class="option__check" checked type="radio" name="coin-create">
+                    <label for="100" class="option__coin">100</label>
+                    <input id="200" class="option__check" type="radio" name="coin-create">
+                    <label for="200" class="option__coin">200</label>
+                    <input id="300" class="option__check" type="radio" name="coin-create">
+                    <label for="300" class="option__coin">300</label>
+                    <input id="500" class="option__check" type="radio" name="coin-create">
+                    <label for="500" class="option__coin">500</label>
+                    <input id="1000" class="option__check" type="radio" name="coin-create">
+                    <label for="1000" class="option__coin">1000</label>
+                    <input id="1500" class="option__check" type="radio" name="coin-create">
+                    <label for="1500" class="option__coin">1500</label>
+                    <input id="2000" class="option__check" type="radio" name="coin-create">
+                    <label for="2000" class="option__coin">2000</label>
+
+                </div>
+                <div class="option-item">
+                    <span>Выберите режим</span>
+                    <input checked id="1 v 1" class="option__check" type="radio" name="mode-create">
+                    <label for="1 v 1" class="option__mode">
+                        1 v 1
+                    </label>
+                </div>
+                
+            </div>
+            <div class="popup-create-match__btns">
+                <div class="btn btn-popup">Создать матч</div>
+                <div class="btn btn-popup" onclick="hidePopup()">Отмена</div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
