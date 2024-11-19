@@ -529,7 +529,7 @@ select.match__filters-item.sword-img{
 
 .card-game {
     position: relative;
-    width: 214px;
+    width: 100%;
     padding: 16px;
     height: 300px;
     border-radius: 8px;
@@ -563,7 +563,8 @@ select.match__filters-item.sword-img{
 }
 
 .match__wait-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 15px;
     margin: 32px 0;
     flex-wrap: wrap;
@@ -650,9 +651,10 @@ select.match__filters-item.sword-img{
 }
 
 .match__play-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 15px;
-    flex-wrap: wrap;
+    
     margin: 35px 0;
 }
 
@@ -1354,4 +1356,56 @@ background: url('../images/copper-coin-fill.svg') 50% / contain no-repeat;
 }
 td.mode {
     font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+    .container {
+        padding: 0 20px;
+    }
+    .match__wait-cards {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .match__play-cards {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media (max-width:1100px) {
+    .match__wait-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .match__play-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width:850px) {
+    .container {
+        padding: 0 10px;
+    }
+    .match__wait-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .match__play-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:650px) {
+    .match__wait-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .match__play-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
